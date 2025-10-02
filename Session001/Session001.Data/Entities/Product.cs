@@ -70,4 +70,6 @@ public class Product
     public Guid rowguid { get; set; }
 
     public DateTime ModifiedDate { get; set; }
+
+    public string? Staus { get; set; }
 }
